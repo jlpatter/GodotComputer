@@ -14,3 +14,13 @@ position = Vector2( -122.856, 14.7365 )
 
 [node name="NAND3" parent="." instance=ExtResource( 1 )]
 position = Vector2( 40.662, -35.9874 )
+
+[node name="Inter1" type="Line2D" parent="."]
+points = PoolVector2Array( -0.495758, -53.5657, 16.172, -23.0082 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Inter2" type="Line2D" parent="."]
+points = PoolVector2Array( 2.2822, 39.6941, 16.172, 1.59651 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )

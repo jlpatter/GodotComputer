@@ -12,8 +12,17 @@ script = ExtResource( 4 )
 position = Vector2( -178.949, -67.4786 )
 
 [node name="NAND" parent="." instance=ExtResource( 1 )]
-position = Vector2( -156.959, 4.62398 )
-rotation = -0.253073
+position = Vector2( -301.209, 34.3225 )
 
 [node name="AND" parent="." instance=ExtResource( 2 )]
 position = Vector2( 138.612, -25.7816 )
+
+[node name="Inter1" type="Line2D" parent="."]
+points = PoolVector2Array( -13.1122, -78.3823, -24.4387, -38.2676 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Inter2" type="Line2D" parent="."]
+points = PoolVector2Array( -178.29, 59.8953, -23.0229, -14.1988 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
