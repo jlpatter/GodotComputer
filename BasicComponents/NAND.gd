@@ -1,8 +1,5 @@
 extends Node2D
 
-func _ready():
-	operate(false, false)
-
 func operate(var input_1, var input_2):
 	var output = not (input_1 and input_2)
 	if input_1:
