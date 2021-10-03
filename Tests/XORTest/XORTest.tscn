@@ -9,6 +9,7 @@
 extents = Vector2( 14.3087, 17.0417 )
 
 [node name="XORTest" type="Node2D"]
+scale = Vector2( 0.5, 0.5 )
 script = ExtResource( 3 )
 
 [node name="XOR" parent="." instance=ExtResource( 1 )]
