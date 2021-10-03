@@ -1,0 +1,45 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Arithmetic/FullAdder.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Tests/FullAdderTest/FullAdderTest.gd" type="Script" id=2]
+[ext_resource path="res://Tests/FullAdderTest/Input1Area2D.gd" type="Script" id=3]
+[ext_resource path="res://Tests/FullAdderTest/Input2Area2D.gd" type="Script" id=4]
+[ext_resource path="res://Tests/FullAdderTest/Input3Area2D.gd" type="Script" id=5]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+[sub_resource type="RectangleShape2D" id=2]
+
+[sub_resource type="RectangleShape2D" id=3]
+
+[node name="FullAdderTest" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="FullAdder" parent="." instance=ExtResource( 1 )]
+position = Vector2( 449.029, 422.025 )
+scale = Vector2( 0.440002, 0.440001 )
+
+[node name="Input1Area2D" type="Area2D" parent="."]
+script = ExtResource( 3 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Input1Area2D"]
+position = Vector2( 110.433, 336.963 )
+shape = SubResource( 1 )
+
+[node name="Input2Area2D" type="Area2D" parent="."]
+script = ExtResource( 4 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Input2Area2D"]
+position = Vector2( 111.362, 382.196 )
+shape = SubResource( 2 )
+
+[node name="Input3Area2D" type="Area2D" parent="."]
+script = ExtResource( 5 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Input3Area2D"]
+position = Vector2( 110.471, 480.194 )
+shape = SubResource( 3 )
+
+[connection signal="input_event" from="Input1Area2D" to="Input1Area2D" method="_on_Input1Area2D_input_event"]
+[connection signal="input_event" from="Input2Area2D" to="Input2Area2D" method="_on_Input2Area2D_input_event"]
+[connection signal="input_event" from="Input3Area2D" to="Input3Area2D" method="_on_Input3Area2D_input_event"]

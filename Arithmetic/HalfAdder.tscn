@@ -12,3 +12,23 @@ position = Vector2( -62.2847, -156.497 )
 
 [node name="XOR" parent="." instance=ExtResource( 2 )]
 position = Vector2( 98.5189, 65.039 )
+
+[node name="Intro1_A" type="Line2D" parent="."]
+points = PoolVector2Array( -390.269, -104.06, -225.513, -169.821 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro1_B" type="Line2D" parent="."]
+points = PoolVector2Array( -390.269, -104.06, -316.023, 0.59137 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro2_A" type="Line2D" parent="."]
+points = PoolVector2Array( -388.855, 2.00568, -225.513, -145.073 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro2_B" type="Line2D" parent="."]
+points = PoolVector2Array( -388.855, 2.00568, -313.195, 63.524 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )

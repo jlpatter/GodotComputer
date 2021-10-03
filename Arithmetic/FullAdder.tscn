@@ -1,15 +1,37 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Arithmetic/HalfAdder.tscn" type="PackedScene" id=1]
 [ext_resource path="res://BasicComponents/OR.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Arithmetic/FullAdder.gd" type="Script" id=3]
 
 [node name="FullAdder" type="Node2D"]
+script = ExtResource( 3 )
 
 [node name="HalfAdder" parent="." instance=ExtResource( 1 )]
-position = Vector2( -370.655, 150.966 )
+position = Vector2( -379.474, -88.419 )
 
 [node name="HalfAdder2" parent="." instance=ExtResource( 1 )]
-position = Vector2( -29.6713, 25.2884 )
+position = Vector2( 453.792, -75.2458 )
 
 [node name="OR" parent="." instance=ExtResource( 2 )]
-position = Vector2( 258.278, -64.8023 )
+position = Vector2( 682.682, -364.141 )
+
+[node name="Inter1" type="Line2D" parent="."]
+points = PoolVector2Array( 66, -73, 11, -49 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Inter2" type="Line2D" parent="."]
+points = PoolVector2Array( 516.034, -417.824, -290.068, -243.876 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Inter3" type="Line2D" parent="."]
+points = PoolVector2Array( 519.236, -324.908, 548.561, -229.734 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro1" type="Line2D" parent="."]
+points = PoolVector2Array( 67.7282, -180.236, -249.056, 136.548, -761.001, 130.891 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
