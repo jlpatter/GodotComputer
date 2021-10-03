@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://BasicComponents/NAND.tscn" type="PackedScene" id=1]
+[ext_resource path="res://BasicComponents/AND.gd" type="Script" id=2]
+
+[node name="AND" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="NAND" parent="." instance=ExtResource( 1 )]
+position = Vector2( -139.63, -25.2104 )
+
+[node name="NAND2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 30.0172, -25.4578 )

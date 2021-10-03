@@ -1,31 +1,22 @@
 extends Node2D
 
-var input_1_state = false
-var input_2_state = false
-var output_state = false
-
 func _ready():
-	update_output()
+	operate(false, false)
 
-func flip_input_1():
-	input_1_state = not input_1_state
-	if input_1_state:
+func operate(var input_1, var input_2):
+	var output = not (input_1 and input_2)
+	if input_1:
 		$Input1.default_color = Color.green
 	else:
 		$Input1.default_color = Color.red
-	update_output()
-
-func flip_input_2():
-	input_2_state = not input_2_state
-	if input_2_state:
+	
+	if input_2:
 		$Input2.default_color = Color.green
 	else:
 		$Input2.default_color = Color.red
-	update_output()
-
-func update_output():
-	output_state = not (input_1_state and input_2_state)
-	if output_state:
+	
+	if output:
 		$Output.default_color = Color.green
 	else:
 		$Output.default_color = Color.red
+	return output
