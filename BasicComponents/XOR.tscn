@@ -12,7 +12,8 @@ script = ExtResource( 4 )
 position = Vector2( -178.949, -67.4786 )
 
 [node name="NAND" parent="." instance=ExtResource( 1 )]
-position = Vector2( -145.645, 1.79555 )
+position = Vector2( -156.959, 4.62398 )
+rotation = -0.253073
 
 [node name="AND" parent="." instance=ExtResource( 2 )]
 position = Vector2( 138.612, -25.7816 )

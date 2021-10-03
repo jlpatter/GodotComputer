@@ -11,3 +11,12 @@ position = Vector2( -139.63, -25.2104 )
 
 [node name="NAND2" parent="." instance=ExtResource( 1 )]
 position = Vector2( 30.0172, -25.4578 )
+
+[node name="Output1Pos" type="Node2D" parent="."]
+position = Vector2( -14.716, 0 )
+
+[node name="Input1Pos" type="Node2D" parent="."]
+position = Vector2( 5.04538, -12.8237 )
+
+[node name="Input2Pos" type="Node2D" parent="."]
+position = Vector2( 5.04538, 12.193 )

@@ -10,17 +10,19 @@ color = Color( 0, 0.0627451, 0.996078, 1 )
 polygon = PoolVector2Array( 0, 0, 100, 0, 100, 50, 0, 50 )
 
 [node name="Input1" type="Line2D" parent="."]
-points = PoolVector2Array( -25, 12.5, 0, 12.5 )
+position = Vector2( -25, 12.5 )
+points = PoolVector2Array( 0, 0, 25, 0 )
 width = 5.0
 default_color = Color( 1, 0, 0, 1 )
 
 [node name="Input2" type="Line2D" parent="."]
-position = Vector2( 0, -0.198425 )
-points = PoolVector2Array( -25, 37.5, 0, 37.5 )
+position = Vector2( -25, 37.5 )
+points = PoolVector2Array( 0, 0, 25, 0 )
 width = 5.0
 default_color = Color( 1, 0, 0, 1 )
 
 [node name="Output" type="Line2D" parent="."]
-points = PoolVector2Array( 100, 25, 125, 25 )
+position = Vector2( 125, 25 )
+points = PoolVector2Array( -25, 0, 0, 0 )
 width = 5.0
 default_color = Color( 1, 0, 0, 1 )
