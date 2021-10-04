@@ -1,0 +1,51 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://BasicComponents/Invert.tscn" type="PackedScene" id=1]
+[ext_resource path="res://BasicComponents/AND.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Memory/Latch.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Memory/DataFlipFlop.gd" type="Script" id=4]
+
+[node name="DataFlipFlop" type="Node2D"]
+script = ExtResource( 4 )
+
+[node name="Invert" parent="." instance=ExtResource( 1 )]
+position = Vector2( -192.314, 86.2843 )
+
+[node name="AND" parent="." instance=ExtResource( 2 )]
+position = Vector2( -47.2309, -57.0154 )
+
+[node name="Latch" parent="." instance=ExtResource( 3 )]
+position = Vector2( 50.8781, 42.878 )
+
+[node name="Latch2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 260.773, 31.5805 )
+
+[node name="Inter1" type="Line2D" parent="."]
+position = Vector2( -150.435, -18.4327 )
+points = PoolVector2Array( 30.0683, 104.717, -60.3116, -27.2849 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Inter2" type="Line2D" parent="."]
+position = Vector2( -150.435, -18.4327 )
+points = PoolVector2Array( 178.125, 74.3925, 256.613, -39.7716 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Inter3" type="Line2D" parent="."]
+position = Vector2( -150.435, -18.4327 )
+points = PoolVector2Array( 324.992, 86.2845, 386.236, 87.4738 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro1" type="Line2D" parent="."]
+position = Vector2( -150.435, -18.4327 )
+points = PoolVector2Array( 178.719, 98.7712, -122.151, 22.0673 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro2" type="Line2D" parent="."]
+position = Vector2( -150.435, -18.4327 )
+points = PoolVector2Array( 390.399, 63.095, -135.232, 102.339 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )

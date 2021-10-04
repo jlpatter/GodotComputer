@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Memory/Latch.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Tests/LatchTest/LatchTest.gd" type="Script" id=2]
+
+[node name="LatchTest" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Latch" parent="." instance=ExtResource( 1 )]
+position = Vector2( 431.674, 269.205 )

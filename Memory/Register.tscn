@@ -1,0 +1,221 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Memory/DataFlipFlop.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Memory/Register.gd" type="Script" id=2]
+
+[node name="Register" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="DataFlipFlop1" parent="." instance=ExtResource( 1 )]
+position = Vector2( 62.1767, 1931.34 )
+
+[node name="DataFlipFlop2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 70.3287, 1669.89 )
+
+[node name="DataFlipFlop3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 74.8237, 1406.19 )
+
+[node name="DataFlipFlop4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 77.8203, 1134.25 )
+
+[node name="DataFlipFlop5" parent="." instance=ExtResource( 1 )]
+position = Vector2( 74.8238, 881.792 )
+
+[node name="DataFlipFlop6" parent="." instance=ExtResource( 1 )]
+position = Vector2( 74.8237, 617.346 )
+
+[node name="DataFlipFlop7" parent="." instance=ExtResource( 1 )]
+position = Vector2( 76.3221, 376.874 )
+
+[node name="DataFlipFlop8" parent="." instance=ExtResource( 1 )]
+position = Vector2( 77.8204, 130.408 )
+
+[node name="DataFlipFlop9" parent="." instance=ExtResource( 1 )]
+position = Vector2( 79.3189, -148.277 )
+
+[node name="DataFlipFlop10" parent="." instance=ExtResource( 1 )]
+position = Vector2( 76.3222, -427.706 )
+
+[node name="DataFlipFlop11" parent="." instance=ExtResource( 1 )]
+position = Vector2( 74.8238, -701.142 )
+
+[node name="DataFlipFlop12" parent="." instance=ExtResource( 1 )]
+position = Vector2( 74.8238, -973.833 )
+
+[node name="DataFlipFlop13" parent="." instance=ExtResource( 1 )]
+position = Vector2( 79.3187, -1207.57 )
+
+[node name="DataFlipFlop14" parent="." instance=ExtResource( 1 )]
+position = Vector2( 76.322, -1475.01 )
+
+[node name="DataFlipFlop15" parent="." instance=ExtResource( 1 )]
+position = Vector2( 76.322, -1724.47 )
+
+[node name="DataFlipFlop16" parent="." instance=ExtResource( 1 )]
+position = Vector2( 76.322, -1976.19 )
+
+[node name="IntroST" type="Node2D" parent="."]
+position = Vector2( 76.1091, 1855.16 )
+
+[node name="IntroST1" type="Line2D" parent="IntroST"]
+points = PoolVector2Array( -225.176, 6.72641, -2254.31, -3490.14 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="IntroST2" type="Line2D" parent="IntroST"]
+points = PoolVector2Array( -214.46, -253.772, -2254.31, -3490.14 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="IntroST3" type="Line2D" parent="IntroST"]
+points = PoolVector2Array( -210.051, -518.355, -2254.31, -3490.14 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="IntroST4" type="Line2D" parent="IntroST"]
+points = PoolVector2Array( -207.531, -789.868, -2254.31, -3490.14 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="IntroST5" type="Line2D" parent="IntroST"]
+points = PoolVector2Array( -210.051, -1041.85, -2254.31, -3490.14 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="IntroST6" type="Line2D" parent="IntroST"]
+points = PoolVector2Array( -211.311, -1307.7, -2254.31, -3490.14 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="IntroST7" type="Line2D" parent="IntroST"]
+points = PoolVector2Array( -210.051, -1547.71, -2254.31, -3490.14 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="IntroST8" type="Line2D" parent="IntroST"]
+points = PoolVector2Array( -206.901, -1794.66, -2254.31, -3490.14 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="IntroST9" type="Line2D" parent="IntroST"]
+points = PoolVector2Array( -206.271, -2073.1, -2254.31, -3490.14 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="IntroST10" type="Line2D" parent="IntroST"]
+points = PoolVector2Array( -210.05, -2352.17, -2254.31, -3490.14 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="IntroST11" type="Line2D" parent="IntroST"]
+points = PoolVector2Array( -211.31, -2625.58, -2254.31, -3490.14 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="IntroST12" type="Line2D" parent="IntroST"]
+points = PoolVector2Array( -210.68, -2898.98, -2254.31, -3490.14 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="IntroST13" type="Line2D" parent="IntroST"]
+points = PoolVector2Array( -206.27, -3133.33, -2254.31, -3490.14 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="IntroST14" type="Line2D" parent="IntroST"]
+points = PoolVector2Array( -208.79, -3400.43, -2254.31, -3490.14 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="IntroST15" type="Line2D" parent="IntroST"]
+points = PoolVector2Array( -208.16, -3649.26, -2254.31, -3490.14 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="IntroST16" type="Line2D" parent="IntroST"]
+points = PoolVector2Array( -209.42, -3901.25, -2254.31, -3490.14 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="IntroCL" type="Node2D" parent="."]
+position = Vector2( 76.1091, 1855.16 )
+
+[node name="IntroCL1" type="Line2D" parent="IntroCL"]
+points = PoolVector2Array( -298.445, 161.523, -2340.11, -1019.33 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="IntroCL2" type="Line2D" parent="IntroCL"]
+points = PoolVector2Array( -291.771, -100.106, -2340.11, -1019.33 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="IntroCL3" type="Line2D" parent="IntroCL"]
+points = PoolVector2Array( -285.764, -364.404, -2340.11, -1019.33 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="IntroCL4" type="Line2D" parent="IntroCL"]
+points = PoolVector2Array( -281.76, -636.043, -2340.11, -1019.33 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="IntroCL5" type="Line2D" parent="IntroCL"]
+points = PoolVector2Array( -285.097, -888.995, -2340.11, -1019.33 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="IntroCL6" type="Line2D" parent="IntroCL"]
+points = PoolVector2Array( -285.097, -1152.63, -2340.11, -1019.33 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="IntroCL7" type="Line2D" parent="IntroCL"]
+points = PoolVector2Array( -285.765, -1393.58, -2340.11, -1019.33 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="IntroCL8" type="Line2D" parent="IntroCL"]
+points = PoolVector2Array( -283.762, -1639.19, -2340.11, -1019.33 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="IntroCL9" type="Line2D" parent="IntroCL"]
+points = PoolVector2Array( -283.095, -1918.18, -2340.11, -1019.33 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="IntroCL10" type="Line2D" parent="IntroCL"]
+points = PoolVector2Array( -283.762, -2200.5, -2340.11, -1019.33 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="IntroCL11" type="Line2D" parent="IntroCL"]
+points = PoolVector2Array( -287.099, -2470.81, -2340.11, -1019.33 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="IntroCL12" type="Line2D" parent="IntroCL"]
+points = PoolVector2Array( -286.432, -2745.79, -2340.11, -1019.33 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="IntroCL13" type="Line2D" parent="IntroCL"]
+points = PoolVector2Array( -282.427, -2979.4, -2340.11, -1019.33 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="IntroCL14" type="Line2D" parent="IntroCL"]
+points = PoolVector2Array( -284.43, -3247.03, -2340.11, -1019.33 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="IntroCL15" type="Line2D" parent="IntroCL"]
+points = PoolVector2Array( -285.097, -3495.98, -2340.11, -1019.33 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="IntroCL16" type="Line2D" parent="IntroCL"]
+points = PoolVector2Array( -285.764, -3746.27, -2340.11, -1019.33 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
