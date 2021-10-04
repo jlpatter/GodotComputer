@@ -1,0 +1,146 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://BasicComponents/OR.tscn" type="PackedScene" id=1]
+[ext_resource path="res://BasicComponents/Invert.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Arithmetic/EqualToZero.gd" type="Script" id=3]
+
+[node name="EqualToZero" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="OR" parent="." instance=ExtResource( 1 )]
+position = Vector2( -587.701, 710.757 )
+
+[node name="OR2" parent="." instance=ExtResource( 1 )]
+position = Vector2( -594.895, 505.187 )
+
+[node name="OR3" parent="." instance=ExtResource( 1 )]
+position = Vector2( -597.724, 312.855 )
+
+[node name="OR4" parent="." instance=ExtResource( 1 )]
+position = Vector2( -601.967, 117.146 )
+
+[node name="OR5" parent="." instance=ExtResource( 1 )]
+position = Vector2( -606.21, -70.9441 )
+
+[node name="OR6" parent="." instance=ExtResource( 1 )]
+position = Vector2( -611.867, -264.69 )
+
+[node name="OR7" parent="." instance=ExtResource( 1 )]
+position = Vector2( -617.523, -449.95 )
+
+[node name="OR8" parent="." instance=ExtResource( 1 )]
+position = Vector2( -620.352, -639.454 )
+
+[node name="OR9" parent="." instance=ExtResource( 1 )]
+position = Vector2( -209.127, 603.517 )
+
+[node name="OR10" parent="." instance=ExtResource( 1 )]
+position = Vector2( -209.127, 207.964 )
+
+[node name="OR11" parent="." instance=ExtResource( 1 )]
+position = Vector2( -224.11, -169.609 )
+
+[node name="OR12" parent="." instance=ExtResource( 1 )]
+position = Vector2( -248.083, -559.169 )
+
+[node name="OR13" parent="." instance=ExtResource( 1 )]
+position = Vector2( 219.389, 390.758 )
+
+[node name="OR14" parent="." instance=ExtResource( 1 )]
+position = Vector2( 183.429, -394.355 )
+
+[node name="OR15" parent="." instance=ExtResource( 1 )]
+position = Vector2( 698.847, -22.7751 )
+
+[node name="Invert" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1037.46, -34.7616 )
+
+[node name="Inter1" type="Line2D" parent="."]
+position = Vector2( -591.141, 704.278 )
+points = PoolVector2Array( 167.704, -4.89844, 216.399, -61.085 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Inter9" type="Line2D" parent="."]
+position = Vector2( -591.141, 704.278 )
+points = PoolVector2Array( 546.846, -112.468, 647.982, -274.285 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Inter13" type="Line2D" parent="."]
+position = Vector2( -591.141, 704.278 )
+points = PoolVector2Array( 974.252, -325.323, 1128.85, -685.653 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Inter15" type="Line2D" parent="."]
+position = Vector2( -591.141, 704.278 )
+points = PoolVector2Array( 1453.5, -738, 1534, -739.5 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Inter14" type="Line2D" parent="."]
+position = Vector2( -591.141, 704.278 )
+points = PoolVector2Array( 942.045, -1109.6, 1123.46, -779.2 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Inter10" type="Line2D" parent="."]
+position = Vector2( -591.141, 704.278 )
+points = PoolVector2Array( 546.846, -508.769, 644.236, -368.678 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Inter11" type="Line2D" parent="."]
+position = Vector2( -591.141, 704.278 )
+points = PoolVector2Array( 532.26, -882.739, 611.5, -1058 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Inter12" type="Line2D" parent="."]
+position = Vector2( -591.141, 704.278 )
+points = PoolVector2Array( 507.051, -1274.4, 608.799, -1152.47 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Inter2" type="Line2D" parent="."]
+position = Vector2( -591.141, 704.278 )
+points = PoolVector2Array( 160.213, -210.167, 215.65, -155.478 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Inter3" type="Line2D" parent="."]
+position = Vector2( -591.141, 704.278 )
+points = PoolVector2Array( 157.216, -403.448, 219.396, -455.889 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Inter4" type="Line2D" parent="."]
+position = Vector2( -591.141, 704.278 )
+points = PoolVector2Array( 151.972, -598.977, 215.65, -549.532 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Inter5" type="Line2D" parent="."]
+position = Vector2( -591.141, 704.278 )
+points = PoolVector2Array( 148.975, -786.264, 205.162, -834.21 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Inter6" type="Line2D" parent="."]
+position = Vector2( -591.141, 704.278 )
+points = PoolVector2Array( 144.48, -979.545, 199.918, -927.853 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Inter7" type="Line2D" parent="."]
+position = Vector2( -591.141, 704.278 )
+points = PoolVector2Array( 137.738, -1166.83, 180.44, -1224.52 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Inter8" type="Line2D" parent="."]
+position = Vector2( -591.141, 704.278 )
+points = PoolVector2Array( 133.992, -1356.37, 177.443, -1317.41 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )

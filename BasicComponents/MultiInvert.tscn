@@ -1,0 +1,55 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://BasicComponents/Invert.tscn" type="PackedScene" id=1]
+[ext_resource path="res://BasicComponents/MultiInvert.gd" type="Script" id=2]
+
+[node name="MultiInvert" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Invert" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1.37152, 537.256 )
+
+[node name="Invert2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1.40503, 459.719 )
+
+[node name="Invert3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1.40503, 382.378 )
+
+[node name="Invert4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1.40503, 306.097 )
+
+[node name="Invert5" parent="." instance=ExtResource( 1 )]
+position = Vector2( -1.77319, 227.698 )
+
+[node name="Invert6" parent="." instance=ExtResource( 1 )]
+position = Vector2( -1.77319, 153.535 )
+
+[node name="Invert7" parent="." instance=ExtResource( 1 )]
+position = Vector2( -3.89264, 78.3138 )
+
+[node name="Invert8" parent="." instance=ExtResource( 1 )]
+position = Vector2( -3.89264, 4.15149 )
+
+[node name="Invert9" parent="." instance=ExtResource( 1 )]
+position = Vector2( -4.95209, -70.011 )
+
+[node name="Invert10" parent="." instance=ExtResource( 1 )]
+position = Vector2( -6.01147, -144.173 )
+
+[node name="Invert11" parent="." instance=ExtResource( 1 )]
+position = Vector2( -7.07117, -223.632 )
+
+[node name="Invert12" parent="." instance=ExtResource( 1 )]
+position = Vector2( -8.13101, -303.09 )
+
+[node name="Invert13" parent="." instance=ExtResource( 1 )]
+position = Vector2( -9.19046, -382.55 )
+
+[node name="Invert14" parent="." instance=ExtResource( 1 )]
+position = Vector2( -10.2501, -459.889 )
+
+[node name="Invert15" parent="." instance=ExtResource( 1 )]
+position = Vector2( -11.3095, -540.408 )
+
+[node name="Invert16" parent="." instance=ExtResource( 1 )]
+position = Vector2( -12.3692, -612.451 )

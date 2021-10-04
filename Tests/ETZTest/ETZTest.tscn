@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Arithmetic/EqualToZero.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Tests/ETZTest/ETZTest.gd" type="Script" id=2]
+
+[node name="ETZTest" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="EqualToZero" parent="." instance=ExtResource( 1 )]
+position = Vector2( 445.048, 269.338 )
+scale = Vector2( 0.3, 0.3 )

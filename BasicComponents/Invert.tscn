@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://BasicComponents/NAND.tscn" type="PackedScene" id=1]
+[ext_resource path="res://BasicComponents/Invert.gd" type="Script" id=2]
+
+[node name="Invert" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="NAND" parent="." instance=ExtResource( 1 )]
+position = Vector2( -52.1201, -26.2246 )
+
+[node name="Intro1_A" type="Line2D" parent="."]
+points = PoolVector2Array( -95.9576, -0.609581, -76.4288, -14.1537 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro1_B" type="Line2D" parent="."]
+points = PoolVector2Array( -95.9576, -0.609581, -76.1138, 11.6746 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
