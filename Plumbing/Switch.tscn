@@ -1,0 +1,450 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Plumbing/Switch.gd" type="Script" id=1]
+[ext_resource path="res://BasicComponents/Invert.tscn" type="PackedScene" id=2]
+[ext_resource path="res://BasicComponents/AND.tscn" type="PackedScene" id=3]
+
+[node name="Switch" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="InvertedANDs" type="Node2D" parent="."]
+
+[node name="AND1" parent="InvertedANDs" instance=ExtResource( 3 )]
+position = Vector2( 18.9623, 1382.52 )
+
+[node name="AND2" parent="InvertedANDs" instance=ExtResource( 3 )]
+position = Vector2( 17.7239, 1286.14 )
+
+[node name="AND3" parent="InvertedANDs" instance=ExtResource( 3 )]
+position = Vector2( 16.6012, 1194.1 )
+
+[node name="AND4" parent="InvertedANDs" instance=ExtResource( 3 )]
+position = Vector2( 14.3562, 1102.06 )
+
+[node name="AND5" parent="InvertedANDs" instance=ExtResource( 3 )]
+position = Vector2( 14.3561, 1012.26 )
+
+[node name="AND6" parent="InvertedANDs" instance=ExtResource( 3 )]
+position = Vector2( 13.2338, 920.222 )
+
+[node name="AND7" parent="InvertedANDs" instance=ExtResource( 3 )]
+position = Vector2( 10.9889, 827.058 )
+
+[node name="AND8" parent="InvertedANDs" instance=ExtResource( 3 )]
+position = Vector2( 8.74365, 732.771 )
+
+[node name="AND9" parent="InvertedANDs" instance=ExtResource( 3 )]
+position = Vector2( 7.62109, 651.954 )
+
+[node name="AND10" parent="InvertedANDs" instance=ExtResource( 3 )]
+position = Vector2( 4.25378, 570.015 )
+
+[node name="AND11" parent="InvertedANDs" instance=ExtResource( 3 )]
+position = Vector2( 3.13123, 488.076 )
+
+[node name="AND12" parent="InvertedANDs" instance=ExtResource( 3 )]
+position = Vector2( 2.00842, 407.259 )
+
+[node name="AND13" parent="InvertedANDs" instance=ExtResource( 3 )]
+position = Vector2( 2.00842, 325.319 )
+
+[node name="AND14" parent="InvertedANDs" instance=ExtResource( 3 )]
+position = Vector2( 2.00867, 240.014 )
+
+[node name="AND15" parent="InvertedANDs" instance=ExtResource( 3 )]
+position = Vector2( 2.00867, 158.074 )
+
+[node name="AND16" parent="InvertedANDs" instance=ExtResource( 3 )]
+position = Vector2( 0.886353, 77.2537 )
+
+[node name="Inverts" type="Node2D" parent="."]
+
+[node name="Invert1" parent="Inverts" instance=ExtResource( 2 )]
+position = Vector2( -270.566, 1370.32 )
+
+[node name="Invert2" parent="Inverts" instance=ExtResource( 2 )]
+position = Vector2( -278.503, 1267.93 )
+
+[node name="Invert3" parent="Inverts" instance=ExtResource( 2 )]
+position = Vector2( -280.884, 1174.27 )
+
+[node name="Invert4" parent="Inverts" instance=ExtResource( 2 )]
+position = Vector2( -281.677, 1078.23 )
+
+[node name="Invert5" parent="Inverts" instance=ExtResource( 2 )]
+position = Vector2( -280.09, 993.308 )
+
+[node name="Invert6" parent="Inverts" instance=ExtResource( 2 )]
+position = Vector2( -278.503, 904.414 )
+
+[node name="Invert7" parent="Inverts" instance=ExtResource( 2 )]
+position = Vector2( -276.121, 804.408 )
+
+[node name="Invert8" parent="Inverts" instance=ExtResource( 2 )]
+position = Vector2( -276.122, 712.338 )
+
+[node name="Invert9" parent="Inverts" instance=ExtResource( 2 )]
+position = Vector2( -274.534, 632.174 )
+
+[node name="Invert10" parent="Inverts" instance=ExtResource( 2 )]
+position = Vector2( -279.296, 553.598 )
+
+[node name="Invert11" parent="Inverts" instance=ExtResource( 2 )]
+position = Vector2( -274.534, 471.053 )
+
+[node name="Invert12" parent="Inverts" instance=ExtResource( 2 )]
+position = Vector2( -275.328, 390.096 )
+
+[node name="Invert13" parent="Inverts" instance=ExtResource( 2 )]
+position = Vector2( -275.328, 302.784 )
+
+[node name="Invert14" parent="Inverts" instance=ExtResource( 2 )]
+position = Vector2( -273.74, 223.414 )
+
+[node name="Invert15" parent="Inverts" instance=ExtResource( 2 )]
+position = Vector2( -275.328, 139.284 )
+
+[node name="Invert16" parent="Inverts" instance=ExtResource( 2 )]
+position = Vector2( -273.74, 59.9138 )
+
+[node name="TopANDs" type="Node2D" parent="."]
+
+[node name="AND17" parent="TopANDs" instance=ExtResource( 3 )]
+position = Vector2( -6.6842, -52.1362 )
+
+[node name="AND18" parent="TopANDs" instance=ExtResource( 3 )]
+position = Vector2( -5.495, -128.246 )
+
+[node name="AND19" parent="TopANDs" instance=ExtResource( 3 )]
+position = Vector2( -5.495, -205.546 )
+
+[node name="AND20" parent="TopANDs" instance=ExtResource( 3 )]
+position = Vector2( -9.06262, -286.406 )
+
+[node name="AND21" parent="TopANDs" instance=ExtResource( 3 )]
+position = Vector2( -5.49487, -368.466 )
+
+[node name="AND22" parent="TopANDs" instance=ExtResource( 3 )]
+position = Vector2( -9.06262, -446.956 )
+
+[node name="AND23" parent="TopANDs" instance=ExtResource( 3 )]
+position = Vector2( -7.87341, -523.066 )
+
+[node name="AND24" parent="TopANDs" instance=ExtResource( 3 )]
+position = Vector2( -7.87341, -605.116 )
+
+[node name="AND25" parent="TopANDs" instance=ExtResource( 3 )]
+position = Vector2( -16.1979, -677.656 )
+
+[node name="AND26" parent="TopANDs" instance=ExtResource( 3 )]
+position = Vector2( -19.9932, -767.476 )
+
+[node name="AND27" parent="TopANDs" instance=ExtResource( 3 )]
+position = Vector2( -18.9932, -851.476 )
+
+[node name="AND28" parent="TopANDs" instance=ExtResource( 3 )]
+position = Vector2( -24.9932, -928.476 )
+
+[node name="AND29" parent="TopANDs" instance=ExtResource( 3 )]
+position = Vector2( -27.9932, -1004.48 )
+
+[node name="AND30" parent="TopANDs" instance=ExtResource( 3 )]
+position = Vector2( -24.9932, -1075.48 )
+
+[node name="AND31" parent="TopANDs" instance=ExtResource( 3 )]
+position = Vector2( -25.9932, -1151.48 )
+
+[node name="AND32" parent="TopANDs" instance=ExtResource( 3 )]
+position = Vector2( -29.9932, -1222.48 )
+
+[node name="InterInvs" type="Node2D" parent="."]
+
+[node name="InterInv1" type="Line2D" parent="InterInvs"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -192.493, 62.6081, -136.669, 62.9796 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="InterInv2" type="Line2D" parent="InterInvs"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -201.728, -39.799, -139.431, -33.0641 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="InterInv3" type="Line2D" parent="InterInvs"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -204.534, -133.524, -139.993, -125.106 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="InterInv4" type="Line2D" parent="InterInvs"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -203.973, -229.495, -142.238, -217.148 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="InterInv5" type="Line2D" parent="InterInvs"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -202.289, -315.363, -142.238, -306.945 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="InterInv6" type="Line2D" parent="InterInvs"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -202.29, -403.475, -143.922, -398.986 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="InterInv7" type="Line2D" parent="InterInvs"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -198.361, -503.935, -145.044, -492.149 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="InterInv8" type="Line2D" parent="InterInvs"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -200.045, -596.537, -147.851, -585.874 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="InterInv9" type="Line2D" parent="InterInvs"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -196.678, -675.67, -148.412, -667.251 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="InterInv10" type="Line2D" parent="InterInvs"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -202.29, -755.363, -150.657, -749.19 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="InterInv11" type="Line2D" parent="InterInvs"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -196.116, -837.303, -154.024, -831.129 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="InterInv12" type="Line2D" parent="InterInvs"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -196.677, -918.683, -155.146, -911.948 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="InterInv13" type="Line2D" parent="InterInvs"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -197.239, -1006.24, -154.024, -993.889 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="InterInv14" type="Line2D" parent="InterInvs"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -196.116, -1085.37, -154.585, -1079.76 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="InterInv15" type="Line2D" parent="InterInvs"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -198.361, -1170.12, -154.585, -1160.58 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="InterInv16" type="Line2D" parent="InterInvs"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -196.677, -1249.25, -155.707, -1242.52 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intros" type="Node2D" parent="."]
+
+[node name="Intro1" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -357.154, 62.4337 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro2" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -366.93, -38.9713 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro3" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -369.6, -132.41 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro4" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -370.267, -228.518 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro5" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -367.598, -313.948 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro6" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -366.93, -402.715 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro7" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -364.261, -501.493 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro8" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -362.258, -594.264 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro9" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -361.591, -673.687 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro10" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -366.93, -753.778 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro11" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -360.924, -836.539 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro12" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -362.258, -916.632 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro13" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -362.926, -1004.07 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro14" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -359.589, -1082.83 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro15" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -364.261, -1168.26 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro16" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -360.923, -1247.02 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro17" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -163.278, -1371.4 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro18" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -160.876, -1446.96 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro19" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -160.876, -1524.5 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro20" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -164.247, -1605.03 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro21" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -161.625, -1687.82 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro22" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -164.997, -1766.1 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro23" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -163.873, -1842.14 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro24" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -163.498, -1923.8 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro25" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -170.241, -1996.47 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro26" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -174.736, -2086.37 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro27" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -173.986, -2170.65 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro28" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -180.354, -2247.06 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro29" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -183.725, -2323.48 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro30" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -182.227, -2394.65 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro31" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -181.478, -2471.44 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
+
+[node name="Intro32" type="Line2D" parent="Intros"]
+position = Vector2( -5.99316, 1306.52 )
+points = PoolVector2Array( -1753.08, -2130.5, -187.097, -2541.86 )
+width = 5.0
+default_color = Color( 1, 0, 0, 1 )
