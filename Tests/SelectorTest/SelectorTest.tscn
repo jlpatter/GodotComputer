@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Plumbing/Selector.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Tests/SelectorTest/SelectorTest.gd" type="Script" id=2]
+
+[node name="SelectorTest" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Selector" parent="." instance=ExtResource( 1 )]
+position = Vector2( 474.677, 260.943 )
+scale = Vector2( 0.15, 0.15 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 516, 302 )
+current = true
